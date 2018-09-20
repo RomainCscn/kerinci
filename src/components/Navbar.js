@@ -1,16 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
-        <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure>
+        <Link to="/" className="navbar-item" style={{fontSize: "24px", color: "darkorange"}}>
+          Kerinci Kultur
         </Link>
       </div>
       <div className="navbar-start">
@@ -18,7 +15,16 @@ const Navbar = () => (
           About
         </Link>
         <Link className="navbar-item" to="/products">
-          Products
+          Eco Tours
+        </Link>
+        <Link className="navbar-item">
+          Homestay
+        </Link>
+        <Link className="navbar-item">
+          Gallery
+        </Link>
+        <Link className="navbar-item">
+          Contact
         </Link>
       </div>
       <div className="navbar-end">
