@@ -1,0 +1,13 @@
+.textContainer {
+  background-color: #F4F4F4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media all and (max-width: 480px) {
+  .description {
+    display: none;
+  }
+}
