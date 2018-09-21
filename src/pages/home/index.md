@@ -1,7 +1,7 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About Kerinci
+templateKey: 'home-page'
+path: /home
+title: Home
 ---
 Kerinci was one of the last villages the Dutch discovered during their colonization of Indonesia. The Dutch named Kerinci, ‘Secret Valley’, given its discrete location tucked away in a valley surrounded by mountains. Today the title still holds great truth, Kerinci remains incredibly unspoiled and unexplored by tourism. Even locals have yet to discover all the secrets the jungle holds.
 ​
