@@ -8,7 +8,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <Header />
+        <Header image={this.props.data.mountKerinci.childImageSharp.fluid}/>
         <section className="section">
           <div className="container">
             <div className="content">
@@ -25,3 +25,15 @@ export default class IndexPage extends React.Component {
     )
   }
 }
+
+export const query = graphql`
+  query {
+    mountKerinci: file(relativePath: {eq: "mount-kerinci.png"}) {
+      childImageSharp {
+        fluid(maxHeight: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+      }
+    }
+  }
+`

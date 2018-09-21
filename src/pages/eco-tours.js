@@ -2,16 +2,17 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import Header from '../components/Header'
 import TourItem from '../components/TourItem'
 
 export default class EcoToursPage extends React.Component {
   render() {
     return (
       <Layout>
+      <Header image={this.props.data.mountKerinci.childImageSharp.fluid} text="Eco tours"/>
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Eco tours</h1>
               <h2 className="is-size-4">Choose your own Kerinci adventure!</h2>
             </div>
             <p>The many tour options can be combined into an itinerary of your choosing based on your interests. We don’t want you to feel locked into a strict schedule with no room to move. We can aIso provide advice and point you in the direction of tours we feel will suit you best. Contact us if you would like to modify any of the tour packages described below to best suit your needs. For example, with some overnight tours it is possible to change them in to a one day tour if you prefer not to camp.

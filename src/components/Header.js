@@ -1,10 +1,16 @@
 import React from 'react'
+import Img from 'gatsby-image'
 
-import mountain from '../../static/img/mountain.png'
-
-const Header = () => (
-  <header>
-    <img src={mountain} alt="Mount Kerinci"></img>
+const Header = ({ image, text }) => (
+  <header style={{position: 'relative'}}>
+    <Img fluid={image}/>
+    <div className="has-text-centered has-text-light is-uppercase has-text-weight-bold" style={{
+      fontSize: '5rem',
+      position: 'absolute',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)'
+    }}>{text}</div>
   </header>
 )
 
