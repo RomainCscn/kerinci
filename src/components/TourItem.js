@@ -1,9 +1,10 @@
 import React from 'react'
 import Img from 'gatsby-image'
+import { Link } from "gatsby"
 
 import style from "./touritem.module.css"
 
-const TourItem = ({ title, description, imageSide, image }) => {
+const TourItem = ({ title, description, imageSide, path, image }) => {
 
   let textColumn = 
   <div className={`${style.textContainer} column`}>
@@ -20,16 +21,16 @@ const TourItem = ({ title, description, imageSide, image }) => {
 
   if (imageSide === 'left') {
     item =
-    <div className="columns is-mobile is-gapless" style={{marginBottom: 0}}>
+    <Link to={path} className="columns is-mobile is-gapless" style={{marginBottom: 0}}>
       {imageColumn}
       {textColumn}
-    </div>  
+    </Link>  
   } else {
     item = 
-    <div className="columns is-mobile is-gapless" style={{marginBottom: 0}}>
+    <Link to={path} className="columns is-mobile is-gapless" style={{marginBottom: 0}}>
       {textColumn}
       {imageColumn}
-    </div>
+    </Link>
   }
 
   return item

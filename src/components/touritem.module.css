@@ -6,6 +6,10 @@
   justify-content: center;
 }
 
+.description {
+  color: #363636;
+}
+
 @media all and (max-width: 480px) {
   .description {
     display: none;
