@@ -14,7 +14,7 @@ const TourItem = ({ title, description, imageSide, path, image }) => {
 
   let imageColumn =
   <div className="column is-three-fifths">
-    <Img style={{maxHeight: '400px'}} fluid={image}/>
+    <Img style={{height: '300px'}} fluid={image}/>
   </div>
 
   let item;

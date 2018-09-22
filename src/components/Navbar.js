@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to="/" className="navbar-item" style={{fontSize: "24px", color: "darkorange"}}>
           Kerinci Kultur
         </Link>
-        <span onClick={toggle} class="navbar-burger burger" data-target="navMenu">
+        <span onClick={toggle} className="navbar-burger burger" data-target="navMenu">
           <span></span>
           <span></span>
           <span></span>
