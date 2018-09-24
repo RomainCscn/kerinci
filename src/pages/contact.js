@@ -31,7 +31,7 @@ export default class ContactPage extends React.Component {
             <div className="field">
               <label className="label">Subject</label>
               <div className="control">
-                <input className="input" type="email" name="subject"/>
+                <input className="input" type="text" name="subject"/>
               </div>
             </div>
             <div className="field">
