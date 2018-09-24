@@ -13,3 +13,15 @@ section {
 .icon {
   max-height: 64px;
 }
+
+.boxContainer {
+  max-width: 860px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-grow: 1;
+  margin-right: 36px;
+}

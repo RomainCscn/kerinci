@@ -23,7 +23,7 @@ export default class JungleTreksPage extends React.Component {
         <div className="container content" style={{maxWidth: '800px'}}> 
           <h3 className="is-size-4">Day 1</h3>
 
-          <p>AWe’ll begin the day with an early start. Get our bags and hop in the car for a two and a half hour drive to the first lake,stopping at a traditional market on the way for your choice of local breakfast. </p>
+          <p>We’ll begin the day with an early start. Get our bags and hop in the car for a two and a half hour drive to the first lake,stopping at a traditional market on the way for your choice of local breakfast. </p>
           
           <p>When arriving at the lake we will sit back for a hot coffee or tea with a light snack before commencing the walk. We’ll walk approximately two hours before stopping at Nylo Lake. Here we can hang out, eat lunch and admire the beautiful surroundings.</p>
 
