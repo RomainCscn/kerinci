@@ -32,7 +32,7 @@ export default class EcoToursPage extends React.Component {
           <TourItem title="Lake Kako" description="Amazing" image={this.props.data.lakeKaco.childImageSharp.fluid} imageSide="right" path="/tours/lake-kaco"/>
           <TourItem title="Jungle treks" description="Wow wow wow" image={this.props.data.jungleTreks.childImageSharp.fluid} imageSide="left" path="/tours/jungle-treks"/>
           <TourItem title="Waterfalls" description="Amazing" image={this.props.data.waterfalls.childImageSharp.fluid} imageSide="right" path="/tours/waterfalls"/>
-          <TourItem title="Cultural" description="Wow wow wow" image={this.props.data.cultural.childImageSharp.fluid} imageSide="left" path="/tours/mount-kerinci"/>
+          <TourItem title="Cultural" description="Wow wow wow" image={this.props.data.cultural.childImageSharp.fluid} imageSide="left" path="/tours/cultural"/>
       </Layout>
     )
   }
