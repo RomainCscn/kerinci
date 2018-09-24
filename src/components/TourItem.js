@@ -8,8 +8,7 @@ const TourItem = ({ title, description, imageSide, path, image }) => {
 
   let textColumn = 
   <div className={`${style.textContainer} column`}>
-    <h2 className="title is-3 has-text-centered">{title}</h2>
-    <p className={style.description}>{description}</p>
+    <h2 className="title is-1 has-text-centered">{title}</h2>
   </div>
 
   let imageColumn =

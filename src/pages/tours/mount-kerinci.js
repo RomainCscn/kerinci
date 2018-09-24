@@ -83,7 +83,7 @@ export default class MountKerinciPage extends React.Component {
 
 export const query = graphql`
   query {
-    mountKerinci: file(relativePath: {eq: "mount-kerinci.png"}) {
+    mountKerinci: file(relativePath: {eq: "mount-kerinci.jpg"}) {
       childImageSharp {
         fluid(maxHeight: 500) {
             ...GatsbyImageSharpFluid

@@ -89,9 +89,9 @@ export default class MountTujuhPage extends React.Component {
 
 export const query = graphql`
   query {
-    mountTujuh: file(relativePath: {eq: "mount-tujuh.jpg"}) {
+    mountTujuh: file(relativePath: {eq: "mount-tujuh.jpeg"}) {
       childImageSharp {
-        fluid(maxHeight: 500) {
+        fluid(maxHeight: 2000) {
             ...GatsbyImageSharpFluid
           }
       }

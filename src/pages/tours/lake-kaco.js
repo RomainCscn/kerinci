@@ -73,7 +73,7 @@ export const query = graphql`
   query {
     lakeKaco: file(relativePath: {eq: "lake-kaco.jpg"}) {
       childImageSharp {
-        fluid(maxHeight: 500) {
+        fluid(maxHeight: 2000) {
             ...GatsbyImageSharpFluid
           }
       }

@@ -66,7 +66,7 @@ export const query = graphql`
   query {
     cultural: file(relativePath: {eq: "cultural.jpg"}) {
       childImageSharp {
-        fluid(maxHeight: 500) {
+        fluid(maxHeight: 2000) {
             ...GatsbyImageSharpFluid
           }
       }

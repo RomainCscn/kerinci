@@ -40,14 +40,14 @@ export default class EcoToursPage extends React.Component {
 
 export const query = graphql`
   query {
-    mountKerinci: file(relativePath: {eq: "mount-kerinci.png"}) {
+    mountKerinci: file(relativePath: {eq: "mount-kerinci.jpg"}) {
       childImageSharp {
         fluid(maxHeight: 1000) {
             ...GatsbyImageSharpFluid
           }
       }
     }
-    mountTujuh: file(relativePath: {eq: "mount-tujuh.jpg"}) {
+    mountTujuh: file(relativePath: {eq: "mount-tujuh.jpeg"}) {
       childImageSharp {
         fluid(maxHeight: 1000) {
             ...GatsbyImageSharpFluid

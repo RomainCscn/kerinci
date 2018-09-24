@@ -103,7 +103,7 @@ export const query = graphql`
   query {
     waterfalls: file(relativePath: {eq: "waterfalls.jpg"}) {
       childImageSharp {
-        fluid(maxHeight: 500) {
+        fluid(maxHeight: 2000) {
             ...GatsbyImageSharpFluid
           }
       }

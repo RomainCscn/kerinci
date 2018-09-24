@@ -94,7 +94,7 @@ export const query = graphql`
   query {
     jungleTreks: file(relativePath: {eq: "jungle-treks.jpg"}) {
       childImageSharp {
-        fluid(maxHeight: 500) {
+        fluid(maxHeight: 2000) {
             ...GatsbyImageSharpFluid
           }
       }
