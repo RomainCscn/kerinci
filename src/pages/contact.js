@@ -15,7 +15,8 @@ export default class ContactPage extends React.Component {
           <div className="content">
             <h1 className="has-text-weight-bold is-size-2">Contact</h1>
           </div>
-          <form name="contact" method="POST" netlify>
+          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="bot-field" />
             <div className="field">
               <label className="label">Name</label>
               <div className="control">
@@ -41,7 +42,7 @@ export default class ContactPage extends React.Component {
               </div>
             </div>
             <div className="control">
-              <button type="submit" className="button is-link">Submit</button>
+              <button type="submit" className="button is-link">Send</button>
             </div>
           </form>
         </div>
