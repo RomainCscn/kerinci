@@ -33,3 +33,26 @@
   height: 100%;
 }
 
+/* CONTACT PAGE */
+
+.mapResponsive {
+  height: 0;
+	overflow: hidden;
+	padding-bottom: 60%; /* aspect ratio */
+	position: relative;
+}
+.mapResponsive iframe {
+  border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.smallIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}

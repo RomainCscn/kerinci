@@ -17,7 +17,7 @@ export default class EcoToursPage extends React.Component {
         <section className="section">
           <div className={style.iconContainer}>
             <img src={adventure} alt="adventure logo" className={style.icon}/>
-            <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Choose your own Kerinci adventure</h2>
+            <h2 className="is-title is-size-3 has-text-centered" style={{ borderBottom: '2px solid grey'}}>Choose your own Kerinci adventure</h2>
           </div>
           <div className="container content" style={{maxWidth: '800px'}}> 
             <p>The many tour options can be combined into an itinerary of your choosing based on your interests. We don’t want you to feel locked into a strict schedule with no room to move. We can aIso provide advice and point you in the direction of tours we feel will suit you best. Contact us if you would like to modify any of the tour packages described below to best suit your needs. For example, with some overnight tours it is possible to change them in to a one day tour if you prefer not to camp.
