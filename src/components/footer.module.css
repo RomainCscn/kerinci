@@ -1,15 +1,14 @@
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  background-color: #696969;
-  border-top: 4px solid darkorange;
-  height: 100px;
-  margin-top: 48px;
+.footer {
+  margin-top: 3rem;
+  padding: 3rem 3rem;
+  background-color: #4ABDAC;
 }
 
-.bookBtn {
-  background-color: #333333;
-  color: #fdfdfd;
+.socialIcons {
+  display: flex !important;
+  justify-content: space-evenly;
+}
+
+.icon {
+  max-height: 48px;
 }
