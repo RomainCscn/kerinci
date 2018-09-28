@@ -37,9 +37,9 @@ export default class Gallery extends React.Component {
 
   returnPhotos(photos) {
     return photos.map((photo, i) => (
-      <div className={style.imageContainer}>
+      <div key={i} className={style.imageContainer}>
         <div className={style.imageContainerChild}>
-          <a key={i} href={photo.src} onClick={e => this.openLightbox(i, e)}>
+          <a href={photo.src} onClick={e => this.openLightbox(i, e)}>
             <Img style={{height: '100%'}} fluid={photo} />
           </a>
         </div>

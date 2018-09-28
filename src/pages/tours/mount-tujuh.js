@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../../components/Layout'
 import Header from '../../components/Header'
+import TourPrice from '../../components/TourPrice'
 
 import itinerary from '../../img/icons/itinerary.png'
 import backpack from '../../img/icons/backpack.png'
@@ -12,6 +13,28 @@ import style from './tours.module.css'
 
 export default class MountTujuhPage extends React.Component {
   render() {
+    let priceDetails = {
+      oneDay: [
+        {name: 'Solo', price: '100'},
+        {name: 'Two persons', price: '200'},
+        {name: 'Three persons', price: '250'},
+        {name: 'Four persons', price: '300'}
+      ],
+      twoDays: [
+        {name: 'Solo', price: '200'},
+        {name: 'Two persons', price: '300'},
+        {name: 'Three persons', price: '350'},
+        {name: 'Four persons', price: '400'}
+      ],
+      threeDays: [
+        {name: 'Solo', price: '300'},
+        {name: 'Two persons', price: '350'},
+        {name: 'Three persons', price: '400'},
+        {name: 'Four persons', price: '450'},
+        {name: 'Five persons', price: '500'}
+      ],
+    }
+
     return (
       <Layout>
       <Header image={this.props.data.mountTujuh.childImageSharp.fluid} text="Mount Tujuh"/>
@@ -68,18 +91,21 @@ export default class MountTujuhPage extends React.Component {
           <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Prices</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
-        <p>Contact us by Whatsapp to get the tour price: <a href="tel:+6285366442933">+62 85366442933</a></p>
-        
-        <p>Price includes:</p>
-        <ul>
-          <li>Two nights in our homestay for the night before the trek and after the trek</li>
-          <li>>National Park permits</li>
-          <li>>All camping equipment: camping tent, mattress and sleeping bags</li>
-          <li>1 or 2 porters (it depends on the size of group) who will carry with the camping equipment and food.</li>
-          <li>Full board meals while you are on the trek: breakfast, lunch, dinner, coffe or tea and water.</li>
-        </ul>
-        ​
-        <p><em>Note that we can help you to find a private or shared car, both from Padang or Jambi to Kerinci.</em></p>
+          <TourPrice details={priceDetails}/>
+          <p>Price includes:</p>
+          <ul>
+            <li>Two nights in our homestay for the night before the trek and after the trek</li>
+            <li>National Park permits</li>
+            <li>All camping equipment: camping tent, mattress and sleeping bags</li>
+            <li>1 or 2 porters (it depends on the size of group) who will carry with the camping equipment and food.</li>
+            <li>Full board meals while you are on the trek: breakfast, lunch, dinner, coffe or tea and water.</li>
+          </ul>
+          <p><em>Note that we can help you find a private or shared car, both from Padang or Jambi to Kerinci.</em></p>
+          <article className="message is-success">
+            <div className="message-body">
+              <p>Don't hesitate to contact us by Whatsapp to get more information: <a href="tel:+6285366442933">+62 85366442933</a></p>
+            </div>
+          </article>
         </div>
       </section>
       </Layout>
