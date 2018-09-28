@@ -40,7 +40,7 @@ export const query = graphql`
   query {
     ricePaddies: file(relativePath: {eq: "rice-paddies.jpg"}) {
       childImageSharp {
-        fluid(maxHeight: 1000) {
+        fluid(maxHeight: 1000, quality: 100) {
             ...GatsbyImageSharpFluid
           }
       }
