@@ -2,38 +2,20 @@ import React from 'react'
 import Img from 'gatsby-image'
 import { Link } from "gatsby"
 
-import style from "./touritem.module.css"
+const TourItem1 = ({ title, image, path }) => (
+  <Link to={path}>
+    <div className="card">
+      <div className="card-image">
+        <figure className="image">
+          <Img fluid={image} style={{height: '300px'}}/>
+        </figure>
+      </div>
+      <div className="card-content">
+        <p className="title is-4 has-text-centered">{title}</p>
+      </div>
+    </div>
+  </Link>
+)
 
-const TourItem = ({ title, description, imageSide, path, image }) => {
-
-  let textColumn = 
-  <div className={`${style.textContainer} column`}>
-    <h2 className="title is-1 has-text-centered">{title}</h2>
-  </div>
-
-  let imageColumn =
-  <div className="column is-three-fifths">
-    <Img style={{height: '300px'}} fluid={image}/>
-  </div>
-
-  let item;
-
-  if (imageSide === 'left') {
-    item =
-    <Link to={path} className="columns is-mobile is-gapless" style={{marginBottom: 0}}>
-      {imageColumn}
-      {textColumn}
-    </Link>  
-  } else {
-    item = 
-    <Link to={path} className="columns is-mobile is-gapless" style={{marginBottom: 0}}>
-      {textColumn}
-      {imageColumn}
-    </Link>
-  }
-
-  return item
-}
-
-export default TourItem
+export default TourItem1
 

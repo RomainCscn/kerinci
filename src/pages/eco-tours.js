@@ -26,13 +26,29 @@ export default class EcoToursPage extends React.Component {
             On these tours we will use the home stay as a base. During overnight treks you will not have to pay for a night at the home stay. Bags can be left in lockers in the house.
             </p>
           </div>
-          </section>
-          <TourItem title="Mount Kerinci" description="Amazing" image={this.props.data.mountKerinci.childImageSharp.fluid} imageSide="right" path="/tours/mount-kerinci"/>
-          <TourItem title="Mount Tujuh" description="Wow wow wow" image={this.props.data.mountTujuh.childImageSharp.fluid} imageSide="left" path="/tours/mount-tujuh"/>
-          <TourItem title="Lake Kako" description="Amazing" image={this.props.data.lakeKaco.childImageSharp.fluid} imageSide="right" path="/tours/lake-kaco"/>
-          <TourItem title="Jungle treks" description="Wow wow wow" image={this.props.data.jungleTreks.childImageSharp.fluid} imageSide="left" path="/tours/jungle-treks"/>
-          <TourItem title="Waterfalls" description="Amazing" image={this.props.data.waterfalls.childImageSharp.fluid} imageSide="right" path="/tours/waterfalls"/>
-          <TourItem title="Cultural" description="Wow wow wow" image={this.props.data.cultural.childImageSharp.fluid} imageSide="left" path="/tours/cultural"/>
+        </section>
+        <section className="container">
+          <div className="columns is-multiline">
+            <div className="column is-one-third-widescreen is-half-tablet">
+              <TourItem title="Mount Kerinci"  image={this.props.data.mountKerinci.childImageSharp.fluid} path="/tours/mount-kerinci"/>
+            </div>
+            <div className="column is-one-third-widescreen is-half-tablet">
+              <TourItem title="Mount Tujuh" image={this.props.data.mountTujuh.childImageSharp.fluid} path="/tours/mount-tujuh"/>
+            </div>
+            <div className="column is-one-third-widescreen is-half-tablet">
+              <TourItem title="Lake Kako"  image={this.props.data.lakeKaco.childImageSharp.fluid} path="/tours/lake-kaco"/>
+            </div>
+            <div className="column is-one-third-widescreen is-half-tablet">
+              <TourItem title="Jungle treks" image={this.props.data.jungleTreks.childImageSharp.fluid} path="/tours/jungle-treks"/>
+            </div>
+            <div className="column is-one-third-widescreen is-half-tablet">
+              <TourItem title="Waterfalls"  image={this.props.data.waterfalls.childImageSharp.fluid} path="/tours/waterfalls"/>
+            </div>
+            <div className="column is-one-third-widescreen is-half-tablet">
+              <TourItem title="Cultural" image={this.props.data.cultural.childImageSharp.fluid} path="/tours/cultural"/>
+            </div>
+          </div>
+        </section>
       </Layout>
     )
   }

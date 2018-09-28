@@ -22,7 +22,7 @@ export default class JungleTreksPage extends React.Component {
           <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Cinnamon harvest</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}>
-          <p>Kerinci produces around 85% of cinnamon worldwide. If you are curious and eager to learn about the process of the cinnamon harvest come and take a tour.</p>
+          <p>Kerinci produces around 45% of cinnamon worldwide. If you are curious and eager to learn about the process of the cinnamon harvest come and take a tour.</p>
 
           <p>We’ll start the day as usual, with breakfast in the traditional market. Then we will drive around one and a half hours to the farm. After greeting the farmer we will visit the tea plantation in the cinnamon jungle. You can choose to join the harvesting process or just to watch it. It will include peeling the bark from the tree, washing it and then scraping it.
           We will end the tour with lunch.</p>
@@ -34,7 +34,7 @@ export default class JungleTreksPage extends React.Component {
           <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Tea plantation</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
-          <p>Our tea plantations are the biggest in the world. As the tea plantations are located around the center of all the tours, we can combine a visit to the plantations on your request with any tour. Or if you wish to we can arrange a picnic lunch here one day.</p>
+          <p>Our tea plantations are one of the biggest in the world. As the tea plantations are located around the center of all the tours, we can combine a visit to the plantations on your request with any tour. Or if you wish to we can arrange a picnic lunch here one day.</p>
         </div>
       </section>
       <section>

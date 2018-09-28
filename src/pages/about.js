@@ -24,7 +24,7 @@ export default class EcoToursPage extends React.Component {
 
             <p>When wandering the streets of Kerinci you will be overwhelmed with friendly smiles, waves, and greetings. It’s not uncommon for locals to ask for a photo. Since tourism has yet to flourish the community is delighted to meet the tourists who visit their community.</p>
 
-            <article className="message is-primary">
+            <article className="message is-success">
               <div className="message-body">
                 <em>Come explore this valley and leave with an experience that you will carry forever.</em>
               </div>
