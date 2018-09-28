@@ -1,14 +1,23 @@
 .title {
-  font-size: 5rem;
+  font-size: 8rem;
   position: absolute;
   width: 90%;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.subtitle {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+
 @media all and (max-width: 767px) {
   .title {
-    font-size: 3rem;
+    font-size: 5rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
   }
 }

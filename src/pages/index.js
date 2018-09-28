@@ -9,7 +9,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <Header fullscreen image={this.props.data.tujuh.childImageSharp.fluid} text="Welcome to Kerinci"/>
+        <Header fullscreen image={this.props.data.tujuh.childImageSharp.fluid} text="Kerinci" subtitle="The secret valley"/>
         <section className="section">
           <div className="container">
             <p>Kerinci is a mystical place layered with natural beauty, strong traditions and rich culture. Come discover a secret valley nestled between jungle covered mountains. Immerse yourself in a different way of life and leave enriched by your experiences.</p>
