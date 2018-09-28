@@ -37,7 +37,7 @@ export default class LakeKacoPage extends React.Component {
 
     return (
       <Layout>
-      <Header image={this.props.data.lakeKaco.childImageSharp.fluid} text="Lake Kaco"/>
+      <Header image={this.props.data.lakeKaco.childImageSharp.fluid} title="Lake Kaco"/>
       <section>
         <div className={style.iconContainer}>
           <img src={itinerary} alt="itinerary logo" className={style.icon}/>

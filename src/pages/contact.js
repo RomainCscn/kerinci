@@ -13,7 +13,7 @@ export default class ContactPage extends React.Component {
   render() {
     return (
       <Layout>
-        <Header image={this.props.data.mountKerinci.childImageSharp.fluid} text="Contact"/>
+        <Header image={this.props.data.mountKerinci.childImageSharp.fluid} title="Contact"/>
         <section className="section">
         <div className="container content">
           <div className="columns is-variable is-8">

@@ -13,7 +13,7 @@ export default class EcoToursPage extends React.Component {
   render() {
     return (
       <Layout>
-      <Header image={this.props.data.mountKerinci.childImageSharp.fluid} text="Eco tours"/>
+      <Header image={this.props.data.mountKerinci.childImageSharp.fluid} title="Eco tours" subtitle="Ready for some adventure?"/>
         <section className="section">
           <div className={style.iconContainer}>
             <img src={adventure} alt="adventure logo" className={style.icon}/>

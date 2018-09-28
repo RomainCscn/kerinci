@@ -14,7 +14,7 @@ export default class JungleTreksPage extends React.Component {
   render() {
     return (
       <Layout>
-      <Header image={this.props.data.waterfalls.childImageSharp.fluid} text="Waterfalls"/>
+      <Header image={this.props.data.waterfalls.childImageSharp.fluid} title="Waterfalls"/>
       <section>
         <div className={style.iconContainer}>
           <img src={itinerary} alt="itinerary logo" className={style.icon}/>

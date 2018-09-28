@@ -15,7 +15,7 @@ export default class JungleTreksPage extends React.Component {
   render() {
     return (
       <Layout>
-      <Header image={this.props.data.cultural.childImageSharp.fluid} text="Cultural"/>
+      <Header image={this.props.data.cultural.childImageSharp.fluid} title="Cultural"/>
       <section>
         <div className={style.iconContainer}>
           <img src={cinnamon} alt="cinnamon logo" className={style.icon}/>

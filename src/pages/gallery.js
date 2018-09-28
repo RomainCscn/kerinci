@@ -12,7 +12,7 @@ export default class EcoToursPage extends React.Component {
     
     return (
       <Layout>
-        <Header image={this.props.data.ricePaddies.childImageSharp.fluid} text="Gallery"/>
+        <Header image={this.props.data.ricePaddies.childImageSharp.fluid} title="Gallery"/>
         <section className="section" style={{padding: '0'}}>
           <Gallery photos={photos}/>
         </section>

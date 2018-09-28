@@ -20,7 +20,7 @@ export default class HomestayPage extends React.Component {
 
     return (
       <Layout>
-      <Header image={this.props.data.homestay.childImageSharp.fluid} text="Homestay"/>
+      <Header image={this.props.data.homestay.childImageSharp.fluid} title="Homestay" subtitle="Discover the local life"/>
       <section className="section">
         <div className="container">
           <div className={style.iconContainer}>

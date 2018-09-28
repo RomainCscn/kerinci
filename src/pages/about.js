@@ -10,7 +10,7 @@ export default class EcoToursPage extends React.Component {
   render() {
     return (
       <Layout>
-        <Header image={this.props.data.ricePaddies.childImageSharp.fluid} text="About Kerinci"/>
+        <Header image={this.props.data.ricePaddies.childImageSharp.fluid} title="Kerinci" subtitle="Learn more about the secret valley"/>
         <section className="section">
           <div className="container content" style={{maxWidth: '800px'}}>
 

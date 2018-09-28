@@ -37,7 +37,7 @@ export default class MountTujuhPage extends React.Component {
 
     return (
       <Layout>
-      <Header image={this.props.data.mountTujuh.childImageSharp.fluid} text="Mount Tujuh"/>
+      <Header image={this.props.data.mountTujuh.childImageSharp.fluid} title="Mount Tujuh"/>
       <section>
         <div className={style.iconContainer}>
           <img src={itinerary} alt="itinerary logo" className={style.icon}/>
