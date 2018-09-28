@@ -2,6 +2,18 @@ section {
   padding: 3rem;
 }
 
+@media all and (max-width: 768px) {
+  section {
+    padding: 2rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  section {
+    padding: 1rem;
+  }
+}
+
 .iconContainer {
   display: flex;
   justify-content: center;

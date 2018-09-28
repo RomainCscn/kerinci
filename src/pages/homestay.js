@@ -27,11 +27,11 @@ export default class HomestayPage extends React.Component {
             <img src={rooms} alt="rooms logo" className={style.icon}/>
             <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Rooms</h2>
           </div>
-          <div className="columns is-8 is-variable">
-            <div className="column">
+          <div className="columns is-8 is-variable is-centered">
+            <div className="column is-5-desktop">
               <Card title="Room 1" description={descriptionRoom1} image={this.props.data.room1.childImageSharp.fluid}/>
             </div>
-            <div className="column">
+            <div className="column is-5-desktop">
               <Card title="Room 2" description={descriptionRoom2} image={this.props.data.room2.childImageSharp.fluid}/>
             </div>
           </div>
