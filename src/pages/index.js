@@ -11,7 +11,7 @@ export default class IndexPage extends React.Component {
       <Layout>
         <Header fullscreen image={this.props.data.tujuh.childImageSharp.fluid} title="Kerinci" subtitle="The secret valley"/>
         <section className="section">
-          <div className="container">
+          <div className="container content" style={{maxWidth: '800px'}}>
             <p>Kerinci is a mystical place layered with natural beauty, strong traditions and rich culture. Come discover a secret valley nestled between jungle covered mountains. Immerse yourself in a different way of life and leave enriched by your experiences.</p>
             
             <p>Kerinci Kultur is a community made up of local people and whose goal is to share with you the essence of this hidden valley.

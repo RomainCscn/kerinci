@@ -14,7 +14,7 @@ const Header = ({ image, title, subtitle, fullscreen }) => {
   let img;
 
   if (fullscreen) {
-    img = <Img fluid={image} style={{height: 'calc(100vh - 52px)', filter: 'brightness(80%) saturate(120%)'}}/>
+    img = <Img fluid={image} style={{height: '100vh', filter: 'brightness(80%) saturate(120%)'}}/>
   } else {
     img = <Img fluid={image} style={{height: '500px', filter: 'brightness(80%) saturate(120%)'}}/>
   }

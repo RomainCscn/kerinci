@@ -11,14 +11,14 @@ import logo from '../favicon.png'
 
 const Footer = () => (
   <footer className={style.footer}>
-    <div className={`has-text-black-ter has-background-grey-lighter`}>
+    <div className={`has-text-grey-lighter has-background-grey-darker`}>
       <div className={`columns ${style.firstRow}`}>
         <div className={`column is-5 ${style.about}`}>
           <img src={logo} alt="Kerinci Kultur logo" className={style.logo}/>
           <div>With <em>Kerinci Kultur</em>, discover the secret valley of Kerinci, experience various eco tours and live the local life at our homestay.</div>
         </div>
         <div className="column is-1"></div>
-        <div className={`column has-text-dark ${style.links}`}>
+        <div className={`column has-text-grey-lighter ${style.links}`}>
           <div>
           <Link className={style.link} to="/about">
           About
@@ -44,7 +44,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <div className={`has-text-grey-lighter has-background-grey-dark`}>
+    <div className="has-text-light" style={{backgroundColor: '#e5792c'}}>
       <div className={`columns ${style.secondRow}`}>
         <div className={`column ${style.copyright}`}>
           Copyright © 2018 Kerinci Kultur.

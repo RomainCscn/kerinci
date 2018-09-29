@@ -15,7 +15,7 @@ const TemplateWrapper = ({ children, title }) => (
         <html lang="en" />
       </Helmet>
     <Navbar />
-    <div>{children}</div>
+    <div style={{paddingBottom: '3rem'}}>{children}</div>
     <Footer />
   </div>
 )

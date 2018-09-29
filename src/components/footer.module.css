@@ -1,7 +1,3 @@
-.footer {
-  margin-top: 5rem;
-}
-
 .firstRow {
   margin: 0 auto !important;
   max-width: 1200px;
@@ -27,7 +23,7 @@
 }
 
 .link {
-  color: hsl(0, 0%, 29%);
+  color: hsl(0, 0%, 86%);
 }
 
 .link:hover {
@@ -44,6 +40,7 @@
 .socialIcons {
   display: flex !important;
   justify-content: flex-end;
+  padding-top: 1rem !important;
 }
 
 .icon {
@@ -53,6 +50,7 @@
 }
 
 .logo {
+  filter: brightness(110%) saturate(125%);
   max-height: 96px;
   margin-right: 2rem;
 }
