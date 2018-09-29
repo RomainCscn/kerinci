@@ -7,17 +7,17 @@ import TourItem from '../components/TourItem'
 
 import adventure from '../img/icons/adventure.png'
 
-import style from './tours/tours.module.css'
+import style from './global.module.css'
 
 export default class EcoToursPage extends React.Component {
   render() {
     return (
       <Layout>
       <Header image={this.props.data.mountKerinci.childImageSharp.fluid} title="Eco tours" subtitle="Ready for some adventure?"/>
-        <section className="section">
+        <section className="container">
           <div className={style.iconContainer}>
             <img src={adventure} alt="adventure logo" className={style.icon}/>
-            <h2 className="is-title is-size-3 has-text-centered" style={{ borderBottom: '2px solid grey'}}>Choose your own Kerinci adventure</h2>
+            <h2 className="is-title is-size-3 has-text-centered">Choose your own Kerinci adventure</h2>
           </div>
           <div className="container content" style={{maxWidth: '800px'}}> 
             <p>The many tour options can be combined into an itinerary of your choosing based on your interests. We don’t want you to feel locked into a strict schedule with no room to move. We can aIso provide advice and point you in the direction of tours we feel will suit you best. Contact us if you would like to modify any of the tour packages described below to best suit your needs. For example, with some overnight tours it is possible to change them in to a one day tour if you prefer not to camp.
@@ -27,7 +27,7 @@ export default class EcoToursPage extends React.Component {
             </p>
           </div>
         </section>
-        <section className="container">
+        <section className="container" style={{paddingTop: '0'}}>
           <div className="columns is-multiline">
             <div className="column is-one-third-widescreen is-half-tablet">
               <TourItem title="Mount Kerinci"  image={this.props.data.mountKerinci.childImageSharp.fluid} path="/tours/mount-kerinci"/>

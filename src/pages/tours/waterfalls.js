@@ -8,7 +8,7 @@ import itinerary from '../../img/icons/itinerary.png'
 import backpack from '../../img/icons/backpack.png'
 import waterfall from '../../img/icons/waterfall.png'
 
-import style from './tours.module.css'
+import style from '../global.module.css'
 
 export default class JungleTreksPage extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class JungleTreksPage extends React.Component {
       <section>
         <div className={style.iconContainer}>
           <img src={itinerary} alt="itinerary logo" className={style.icon}/>
-          <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Itinerary</h2>
+          <h2 className="is-title is-size-3" >Itinerary</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}>
           <p>The waterfall trips will always be centered around a picnic lunch. You’ll pack your bags at the beginning of the day and head off for the waterfall stopping at a traditional market for breakfast.</p>
@@ -32,7 +32,7 @@ export default class JungleTreksPage extends React.Component {
       <section style={{backgroundColor: '#F4F4F4'}}>
         <div className={style.iconContainer}>
           <img src={backpack} alt="backpack logo" className={style.icon}/>
-          <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>What to bring?</h2>
+          <h2 className="is-title is-size-3" >What to bring?</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
  
@@ -49,7 +49,7 @@ export default class JungleTreksPage extends React.Component {
       <section>
         <div className={style.iconContainer}>
           <img src={waterfall} alt="waterfall logo" className={style.icon}/>
-          <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Waterfalls</h2>
+          <h2 className="is-title is-size-3" >Waterfalls</h2>
         </div>
         <div className={`container content ${style.boxContainer}`}> 
           <div className={`box ${style.box}`}>

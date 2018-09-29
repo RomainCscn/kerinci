@@ -9,7 +9,7 @@ import itinerary from '../../img/icons/itinerary.png'
 import backpack from '../../img/icons/backpack.png'
 import price from '../../img/icons/price.png'
 
-import style from './tours.module.css'
+import style from '../global.module.css'
 
 export default class MountTujuhPage extends React.Component {
   render() {
@@ -41,7 +41,7 @@ export default class MountTujuhPage extends React.Component {
       <section>
         <div className={style.iconContainer}>
           <img src={itinerary} alt="itinerary logo" className={style.icon}/>
-          <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Itinerary</h2>
+          <h2 className="is-title is-size-3" >Itinerary</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
           <h3 className="is-size-4">Day 1</h3>
@@ -67,7 +67,7 @@ export default class MountTujuhPage extends React.Component {
       <section style={{backgroundColor: '#F4F4F4'}}>
         <div className={style.iconContainer}>
           <img src={backpack} alt="backpack logo" className={style.icon}/>
-          <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>What to bring?</h2>
+          <h2 className="is-title is-size-3" >What to bring?</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
  
@@ -88,7 +88,7 @@ export default class MountTujuhPage extends React.Component {
       <section>
         <div className={style.iconContainer}>
           <img src={price} alt="price logo" className={style.icon}/>
-          <h2 className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Prices</h2>
+          <h2 className="is-title is-size-3" >Prices</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
           <TourPrice details={priceDetails}/>
@@ -100,7 +100,7 @@ export default class MountTujuhPage extends React.Component {
             <li>1 or 2 porters (it depends on the size of group) who will carry with the camping equipment and food.</li>
             <li>Full board meals while you are on the trek: breakfast, lunch, dinner, coffe or tea and water.</li>
           </ul>
-          <p><em>Note that we can help you find a private or shared car, both from Padang or Jambi to Kerinci.</em></p>
+          <p><em>Note that we can help you find a private or shared car, both from Bukittinggi, Padang or Jambi to Kerinci.</em></p>
           <article className="message is-success">
             <div className="message-body">
               <p>Don't hesitate to contact us by Whatsapp to get more information: <a href="tel:+6285366442933">+62 85366442933</a></p>

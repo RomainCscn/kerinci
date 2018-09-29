@@ -14,7 +14,7 @@ const Footer = () => (
         <h3 className="is-title is-size-3">Kerinci Kultur</h3>
       </div>
       <div className="column">
-      <a href="https://airbnb.com" target="blank" className="button is-medium" style={{backgroundColor: '#fd5c63', paddingRight: '0.5rem'}}>
+      <a href="https://www.airbnb.com/rooms/16679732?s=51" target="blank" className="button is-medium" style={{backgroundColor: '#fd5c63', paddingRight: '0.5rem'}}>
         <span className="icon">
           <img src={airbnb} alt="airbnb logo"/>
         </span>

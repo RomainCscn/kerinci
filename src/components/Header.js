@@ -5,11 +5,10 @@ import style from './header.module.css'
 
 const Header = ({ image, title, subtitle, fullscreen }) => {
 
-  const text = <div className={style.title}>
-  <div className={`has-text-centered has-text-light is-uppercase has-text-weight-bold`}>{title}</div>
-    <div>
-      <div className={`has-text-centered has-text-light is-italic ${style.subtitle}`}>{subtitle}</div> 
-    </div>
+  const text = 
+  <div className={style.title}>
+    <h1 className={`has-text-centered has-text-light is-uppercase`}>{title}</h1>
+    <div className={`has-text-centered has-text-light is-italic ${style.subtitle}`}>{subtitle}</div> 
   </div>
   
   let img;

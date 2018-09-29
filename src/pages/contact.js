@@ -20,7 +20,7 @@ export default class ContactPage extends React.Component {
             <div className="column">
               <div className={style.iconContainer}>
                 <img src={phone} alt="phone logo" className={style.icon}/>
-                <div className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>Contact information</div>
+                <div className="is-title is-size-3">Contact information</div>
               </div>
               <div>
                 <div className="message is-success">
@@ -33,7 +33,7 @@ export default class ContactPage extends React.Component {
                 </div>
                 <div className="box">
                   <h3>Homestay</h3>
-                  <p>Use our <a href="https://airbnb.com" target="blank">Airbnb link</a> or send a message detailing the dates of your stay, room preference, and number of guests. Please include any transportation assistance you may require and refer to the information found in <em>how to get here</em>.</p>
+                  <p>Use our <a href="https://www.airbnb.com/rooms/16679732?s=51" target="blank">Airbnb link</a> or send a message detailing the dates of your stay, room preference, and number of guests. Please include any transportation assistance you may require and refer to the information found in <em>how to get here</em>.</p>
                 </div>
                 <div className="box">
                   <h3>Eco Tours</h3>
@@ -75,7 +75,7 @@ export default class ContactPage extends React.Component {
             <div className="column">
               <div className={style.iconContainer}>
                 <img src={location} alt="location logo" className={style.icon}/>
-                <div className="is-title is-size-3" style={{ borderBottom: '2px solid grey'}}>How to get here?</div>
+                <div className="is-title is-size-3">How to get here?</div>
               </div>
               <div className={style.mapResponsive}>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.86477025004!2d101.35616642922533!3d-1.9704638595983774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2da792ee583721%3A0x5585f48f4dbe420a!2sKafe+Kerinci+Kulture!5e0!3m2!1sen!2sid!4v1537844106117" width="600" height="450" frameBorder="0" allowFullScreen title="google-maps"></iframe>
@@ -89,7 +89,8 @@ export default class ContactPage extends React.Component {
                     <em>Shared Taxi:</em>
                     <ul>
                       <li>Padang BIM Airport - Kerinci, idr 170k/person</li>
-                      <li>Padang city - kerinci, idr 120k/person</li>
+                      <li>Padang city - Kerinci, idr 120k/person</li>
+                      <li>Bukittinggi - Kerinci, idr 150k/person</li>
                     </ul>
                   </li>
                   <li><em>Private car, idr 900k</em></li>

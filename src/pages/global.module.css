@@ -5,11 +5,21 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 48px;
+  margin-bottom: 2rem;
 }
 
 .icon {
   max-height: 64px;
+}
+
+section {
+  padding: 5rem;
+}
+
+@media all and (max-width: 480px) {
+  section {
+    padding: 3rem;
+  }
 }
 
 /* ABOUT PAGE */
@@ -31,6 +41,20 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* TOURS PAGE */
+
+.boxContainer {
+  max-width: 860px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-grow: 1;
+  margin-right: 36px;
 }
 
 /* CONTACT PAGE */

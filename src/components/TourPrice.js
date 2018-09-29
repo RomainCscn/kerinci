@@ -16,7 +16,7 @@ export default class Gallery extends React.Component {
       return <option key={element.name} value={element.name}>{element.name}</option>
     });
     return <div style={{marginBottom: '1rem'}}>
-    <label class="label">Number of people</label>
+    <label className="label">Number of people</label>
     <div className="select">
       <select onChange={(e) => this.setState({peopleNumber: e.target.value})}>
         <option value=""></option>
