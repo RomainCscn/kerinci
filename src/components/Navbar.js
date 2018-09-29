@@ -12,7 +12,7 @@ const Navbar = () => {
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
-        <Link to="/" className="navbar-item" style={{fontSize: "24px", color: "darkorange"}}>
+        <Link to="/" className="navbar-item" style={{fontSize: "24px", color: "#c37034"}}>
           Kerinci Kultur
         </Link>
         <span onClick={toggle} className="navbar-burger burger" data-target="navMenu">
