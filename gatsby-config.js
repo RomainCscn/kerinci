@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: 'Kerinci Kultur',
+    siteUrl: 'https://www.kerincikultur.com'
   },
   plugins: [
+    'gatsby-plugin-robots-txt',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
