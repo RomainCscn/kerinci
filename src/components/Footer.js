@@ -27,6 +27,7 @@ const Footer = () => (
         <a href="https://www.youtube.com/watch?v=lWeww6Q6Ack"><img src={youtube} alt="youtube logo" className={style.icon}/></a>
       </div>
     </div>
+    
   </footer>
 )
 

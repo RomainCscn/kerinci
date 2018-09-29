@@ -36,7 +36,7 @@ export default class MountKerinciPage extends React.Component {
     }
 
     return (
-      <Layout>
+      <Layout title="Mount Kerinci tours | Kerinci Kultur">
       <Header image={this.props.data.mountKerinci.childImageSharp.fluid} title="Mount Kerinci"/>
       <section>
         <div className={style.iconContainer}>

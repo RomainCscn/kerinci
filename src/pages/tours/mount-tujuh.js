@@ -36,7 +36,7 @@ export default class MountTujuhPage extends React.Component {
     }
 
     return (
-      <Layout>
+      <Layout title="Mount Tujuh tours | Kerinci Kultur">
       <Header image={this.props.data.mountTujuh.childImageSharp.fluid} title="Mount Tujuh"/>
       <section>
         <div className={style.iconContainer}>

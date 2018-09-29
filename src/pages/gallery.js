@@ -11,7 +11,7 @@ export default class EcoToursPage extends React.Component {
     const photos = this.props.data.photos.edges.map(edge => edge.node.fluid);
     
     return (
-      <Layout>
+      <Layout title="Gallery | Kerinci Kultur">
         <Header image={this.props.data.ricePaddies.childImageSharp.fluid} title="Gallery"/>
         <section className="section" style={{padding: '0'}}>
           <Gallery photos={photos}/>

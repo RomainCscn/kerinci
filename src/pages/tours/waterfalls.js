@@ -13,7 +13,7 @@ import style from '../global.module.css'
 export default class JungleTreksPage extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout title="Waterfalls tours | Kerinci Kultur">
       <Header image={this.props.data.waterfalls.childImageSharp.fluid} title="Waterfalls"/>
       <section>
         <div className={style.iconContainer}>

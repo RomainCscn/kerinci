@@ -14,7 +14,7 @@ import style from '../global.module.css'
 export default class JungleTreksPage extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout title="Cultural tours | Kerinci Kultur">
       <Header image={this.props.data.cultural.childImageSharp.fluid} title="Cultural"/>
       <section>
         <div className={style.iconContainer}>

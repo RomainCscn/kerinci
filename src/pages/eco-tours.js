@@ -12,7 +12,7 @@ import style from './global.module.css'
 export default class EcoToursPage extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout title="Eco tours | Kerinci Kultur">
       <Header image={this.props.data.mountKerinci.childImageSharp.fluid} title="Eco tours" subtitle="Ready for some adventure?"/>
         <section className="container">
           <div className={style.iconContainer}>

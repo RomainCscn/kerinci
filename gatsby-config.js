@@ -7,6 +7,7 @@ module.exports = {
     'gatsby-plugin-robots-txt',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-favicon',
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',

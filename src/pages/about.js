@@ -9,7 +9,7 @@ import style from './global.module.css'
 export default class EcoToursPage extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout title="About the secret valley | Kerinci Kultur">
         <Header image={this.props.data.ricePaddies.childImageSharp.fluid} title="Kerinci" subtitle="Learn more about the secret valley"/>
         <section className="section">
           <div className="container content" style={{maxWidth: '800px'}}>

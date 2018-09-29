@@ -12,7 +12,7 @@ import phone from '../img/icons/phone.png'
 export default class ContactPage extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout title="Contact | Kerinci Kultur">
         <Header image={this.props.data.mountKerinci.childImageSharp.fluid} title="Contact"/>
         <section className="section">
         <div className="container content">

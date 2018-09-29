@@ -36,7 +36,7 @@ export default class LakeKacoPage extends React.Component {
     }
 
     return (
-      <Layout>
+      <Layout title="Lake Kaco tours | Kerinci Kultur">
       <Header image={this.props.data.lakeKaco.childImageSharp.fluid} title="Lake Kaco"/>
       <section>
         <div className={style.iconContainer}>

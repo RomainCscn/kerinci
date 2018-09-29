@@ -17,7 +17,7 @@ export default class HomestayPage extends React.Component {
     const descriptionRoom2 = "The second room contains a double and a single bed as well as a table. There also is a private balcony overlooking the house front garden and the coffee shop.";
 
     return (
-      <Layout>
+      <Layout title="Homestay | Kerinci Kultur">
       <Header image={this.props.data.homestay.childImageSharp.fluid} title="Homestay" subtitle="Discover the local life"/>
       <section>
         <div className="container">
