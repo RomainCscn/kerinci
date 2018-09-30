@@ -13,8 +13,8 @@ export default class EcoToursPage extends React.Component {
     return (
       <Layout title="Gallery | Kerinci Kultur">
         <Header image={this.props.data.nature.childImageSharp.fluid} title="Gallery"/>
-        <section className="section" style={{padding: '0'}}>
-          <Gallery full={true} photos={photos}/>
+        <section>
+          <Gallery full photos={photos}/>
         </section>
       </Layout>
     )

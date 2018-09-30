@@ -36,24 +36,23 @@ export default class Gallery extends React.Component {
   }
 
   returnPhotosFull(photos) {
-    const photosDiv = photos.map((photo, i) => (
-      <div key={i} className={style.imageContainerFull}>
-        <div className={style.imageContainerChildFull}>
+    const photosDiv =  photos.map((photo, i) => (
+      <div key={i} className={`column is-4-tablet is-3-widescreen ${style.imageContainer}`} style={{height: '300px'}}>
+        <div className={style.imageContainerChild}>
           <a href={photo.src} onClick={e => this.openLightbox(i, e)}>
             <Img style={{height: '100%'}} fluid={photo} />
           </a>
         </div>
       </div>
     ))
-
-    return <div className={style.imagesContainerFull}>
+    return <div className="columns is-multiline">
       {photosDiv}
     </div>
   }
 
   returnPhotosNotFull(photos) {
     const photosDiv =  photos.map((photo, i) => (
-      <div key={i} className={`column is-4 ${style.imageContainer}`} style={{height: '300px'}}>
+      <div key={i} className={`column is-6-tablet is-4-desktop ${style.imageContainer}`} style={{height: '300px'}}>
         <div className={style.imageContainerChild}>
           <a href={photo.src} onClick={e => this.openLightbox(i, e)}>
             <Img style={{height: '100%'}} fluid={photo} />
