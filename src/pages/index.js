@@ -10,8 +10,8 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <Header fullscreen image={this.props.data.tujuh.childImageSharp.fluid} title="Kerinci" subtitle="The secret valley"/>
-        <section className="section">
-          <div className="container content" style={{maxWidth: '800px'}}>
+        <div className="container content" style={{maxWidth: '800px'}}>
+          <section className="section">
             <p>Kerinci is a mystical place layered with natural beauty, strong traditions and rich culture. Come discover a secret valley nestled between jungle covered mountains. Immerse yourself in a different way of life and leave enriched by your experiences.</p>
             
             <p>Kerinci Kultur is a community made up of local people and whose goal is to share with you the essence of this hidden valley.
@@ -20,8 +20,8 @@ export default class IndexPage extends React.Component {
             <p>Kerinci is the best place if you love rainforest and outdoor activities due to it's surrounded by Kerinci Seblat National Park, the largest national park on the island of Sumatra.</p>
 
             ​<p>Are you looking forward to going out of your comfort zone and living an authentic experience in the nature off the beaten path? Then come discover, enjoy and release your stress within the most amazing beauty nature on earth!</p>
+            </section>
           </div>
-        </section>
       </Layout>
     )
   }
