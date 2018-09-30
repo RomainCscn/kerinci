@@ -35,9 +35,25 @@ export default class Gallery extends React.Component {
     this.setState({ lightbox: false });
   }
 
-  returnPhotos(photos) {
-    return photos.map((photo, i) => (
-      <div key={i} className={style.imageContainer}>
+  returnPhotosFull(photos) {
+    const photosDiv = photos.map((photo, i) => (
+      <div key={i} className={style.imageContainerFull}>
+        <div className={style.imageContainerChildFull}>
+          <a href={photo.src} onClick={e => this.openLightbox(i, e)}>
+            <Img style={{height: '100%'}} fluid={photo} />
+          </a>
+        </div>
+      </div>
+    ))
+
+    return <div className={style.imagesContainerFull}>
+      {photosDiv}
+    </div>
+  }
+
+  returnPhotosNotFull(photos) {
+    const photosDiv =  photos.map((photo, i) => (
+      <div key={i} className={`column is-4 ${style.imageContainer}`} style={{height: '300px'}}>
         <div className={style.imageContainerChild}>
           <a href={photo.src} onClick={e => this.openLightbox(i, e)}>
             <Img style={{height: '100%'}} fluid={photo} />
@@ -45,15 +61,17 @@ export default class Gallery extends React.Component {
         </div>
       </div>
     ))
+    return <div className="columns is-multiline">
+      {photosDiv}
+    </div>
   }
 
   render() {
     const { photos } = this.props;
+    const { full } = this.props
     return (
       <div>
-        <div className={style.imagesContainer}>
-          {this.returnPhotos(photos)}
-        </div>
+        {full ? this.returnPhotosFull(photos) : this.returnPhotosNotFull(photos)}
         <Lightbox
           backdropClosesModal
           images={this.state.photos}

@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Card from '../components/Card'
+import Gallery from '../components/Gallery'
 
 import style from './global.module.css'
 
@@ -12,7 +13,8 @@ import shared from '../img/icons/shared-area.png'
 
 export default class HomestayPage extends React.Component {
   render() {
-    
+    const photos = this.props.data.photos.edges.map(edge => edge.node.fluid);
+
     const descriptionRoom1 = "The first room contains a single bed as well as a bedside table, desk and chair. The windows open onto an unobstructed view of the jungle covered mountains and rice paddies.";
     const descriptionRoom2 = "The second room contains a double and a single bed as well as a table. There also is a private balcony overlooking the house front garden and the coffee shop.";
 
@@ -36,7 +38,7 @@ export default class HomestayPage extends React.Component {
           </div>
           </div>
         </section>
-        <section style={{backgroundColor: '#F4F4F4'}}>
+        <section className="has-background-light">
           <div className={style.iconContainer}>
             <img src={shared} alt="shared area logo" className={style.icon}/>
             <h2 className="title is-size-3">Common area</h2>
@@ -44,6 +46,9 @@ export default class HomestayPage extends React.Component {
           <div className="container content" style={{maxWidth: '800px'}}> 
             <p>The backyard offers many outdoor sitting areas to relax, drink a coffee, and chat. Among the banana and coconut trees sits a large fire pit on a floor of mulch from the cinnamon trees. On occasion our friends will bring traditional instruments to play in the evening. The tree house in the garden is another great place to relax and take in the hills coated with native growth that overhang the paddy fields.  The tree house is a great place for eating breakfast in the morning and watching the sunset in the evening. </p><br />
             <p>Feel free to explore the local area around the home stay! Small vendors dot the streets selling traditional dishes. There are beautiful tracks through the paddy fields that can be explored by bicycle or motorbike. However, you won’t find any big shopping centers or western food places around the streets. Kerinci is still nicely tucked away from all the hustle and bustle that accompanies city life.  It’s a great place to reconnect with nature and disconnect from the stresses of city life.</p>
+          </div>
+          <div className="container" style={{maxWidth: '1000px', marginTop: '5rem'}}> 
+            <Gallery photos={photos}/>
           </div>
         </section>
       </Layout>
@@ -74,5 +79,14 @@ export const query = graphql`
           }
       }
     }
+    photos: allImageSharp(filter: {fluid: {originalName: {regex: "/h_/"}}}) {
+        edges {
+          node {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
   }
 `
