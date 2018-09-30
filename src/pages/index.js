@@ -72,7 +72,7 @@ export const query = graphql`
     }
     kerinciKultur: file(relativePath: {eq: "favicon.png"}) {
       childImageSharp {
-        fixed (height: 200) {
+        fixed (height: 200, quality: 100) {
             ...GatsbyImageSharpFixed
           }
       }

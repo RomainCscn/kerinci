@@ -41,7 +41,7 @@ export default class MountTujuhPage extends React.Component {
       <section>
         <div className={style.iconContainer}>
           <img src={itinerary} alt="itinerary logo" className={style.icon}/>
-          <h2 className="is-title is-size-3" >Itinerary</h2>
+          <h2 className="title is-size-3" >Itinerary</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
           <h3 className="is-size-4">Day 1</h3>
@@ -67,7 +67,7 @@ export default class MountTujuhPage extends React.Component {
       <section style={{backgroundColor: '#F4F4F4'}}>
         <div className={style.iconContainer}>
           <img src={backpack} alt="backpack logo" className={style.icon}/>
-          <h2 className="is-title is-size-3" >What to bring?</h2>
+          <h2 className="title is-size-3" >What to bring?</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
  
@@ -88,7 +88,7 @@ export default class MountTujuhPage extends React.Component {
       <section>
         <div className={style.iconContainer}>
           <img src={price} alt="price logo" className={style.icon}/>
-          <h2 className="is-title is-size-3" >Prices</h2>
+          <h2 className="title is-size-3" >Prices</h2>
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
           <TourPrice details={priceDetails}/>

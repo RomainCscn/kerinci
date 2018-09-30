@@ -11,7 +11,7 @@ const TourItem1 = ({ title, image, path }) => (
         </figure>
       </div>
       <div className="card-content">
-        <p className="title is-4 has-text-centered">{title}</p>
+        <p className="title has-text-centered">{title}</p>
       </div>
     </div>
   </Link>

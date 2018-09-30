@@ -23,7 +23,7 @@ export default class HomestayPage extends React.Component {
         <div className="container">
           <div className={style.iconContainer}>
             <img src={rooms} alt="rooms logo" className={style.icon}/>
-            <h2 className="is-title is-size-3">Rooms</h2>
+            <h2 className="title is-size-3">Rooms</h2>
           </div>
           <div className="columns is-centered">
             <div className="column is-5-desktop">
@@ -39,7 +39,7 @@ export default class HomestayPage extends React.Component {
         <section style={{backgroundColor: '#F4F4F4'}}>
           <div className={style.iconContainer}>
             <img src={shared} alt="shared area logo" className={style.icon}/>
-            <h2 className="is-title is-size-3">Common area</h2>
+            <h2 className="title is-size-3">Common area</h2>
           </div>
           <div className="container content" style={{maxWidth: '800px'}}> 
             <p>The backyard offers many outdoor sitting areas to relax, drink a coffee, and chat. Among the banana and coconut trees sits a large fire pit on a floor of mulch from the cinnamon trees. On occasion our friends will bring traditional instruments to play in the evening. The tree house in the garden is another great place to relax and take in the hills coated with native growth that overhang the paddy fields.  The tree house is a great place for eating breakfast in the morning and watching the sunset in the evening. </p><br />

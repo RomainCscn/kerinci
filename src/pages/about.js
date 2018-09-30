@@ -23,12 +23,9 @@ export default class EcoToursPage extends React.Component {
             <p>The Valley is a national park, home to glorious mountains, rivers, lakes and waterfalls. Mount Kerinci sits proudly over the valley. At 3805m, it is the highest active volcano South East Asia. Many travelers arrive in Kerinci purely to conquer the trek to the top of the volcano.</p>
 
             <p>When wandering the streets of Kerinci you will be overwhelmed with friendly smiles, waves, and greetings. It’s not uncommon for locals to ask for a photo. Since tourism has yet to flourish the community is delighted to meet the tourists who visit their community.</p>
+            <div style={{borderBottom: '1px solid #dbdbdb', margin: '3rem 6rem'}}></div>
+            <p className={`is-size-4 has-text-centered has-text-primary ${style.introMessage}`}>Come explore this valley and leave with an experience that you will carry forever.</p> 
 
-            <article className="message is-success">
-              <div className="message-body">
-                <em>Come explore this valley and leave with an experience that you will carry forever.</em>
-              </div>
-            </article>
           </div>
         </section>
       </Layout>
