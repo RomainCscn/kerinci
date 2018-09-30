@@ -12,7 +12,7 @@ export default class EcoToursPage extends React.Component {
     
     return (
       <Layout title="Gallery | Kerinci Kultur">
-        <Header image={this.props.data.ricePaddies.childImageSharp.fluid} title="Gallery"/>
+        <Header image={this.props.data.nature.childImageSharp.fluid} title="Gallery"/>
         <section className="section" style={{padding: '0'}}>
           <Gallery photos={photos}/>
         </section>
@@ -32,7 +32,7 @@ export const query = graphql`
           }
         }
       }
-      ricePaddies: file(relativePath: {eq: "rice-paddies.jpg"}) {
+      nature: file(relativePath: {eq: "nature.jpg"}) {
       childImageSharp {
         fluid(maxHeight: 1000) {
             ...GatsbyImageSharpFluid

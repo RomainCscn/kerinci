@@ -12,7 +12,7 @@ const Navbar = () => {
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
-        <Link to="/" className="navbar-item has-text-primary" style={{fontSize: '1.5rem', fontWeight: '600'}}>
+        <Link to="/" className="navbar-item has-text-primary" style={{fontSize: '1.5rem', fontFamily: 'Playfair Display, serif'}}>
           Kerinci Kultur
         </Link>
         <span onClick={toggle} className="navbar-burger burger" data-target="navMenu">

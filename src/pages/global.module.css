@@ -18,8 +18,26 @@ section {
 
 @media all and (max-width: 480px) {
   section {
-    padding: 3rem;
+    padding: 3rem 1rem;
   }
+}
+
+/* HOME PAGE */
+
+.introMessage {
+  font-family: 'Playfair Display', serif;
+  word-spacing: 6px;
+  margin-bottom: 2rem;
+}
+
+.learnButton {
+  margin-top: 2rem;
+  border-radius: 0;
+}
+
+.actionButton {
+  margin: 2rem 12px 0;
+  border-radius: 0;
 }
 
 /* ABOUT PAGE */
