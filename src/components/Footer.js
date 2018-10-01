@@ -38,7 +38,7 @@ const Footer = () => (
           </Link>
         </div>
         <div className={`column is-3 ${style.contact}`}>
-          <span className="title is-size-5" style={{marginBottom: '1rem'}}>Contact</span>
+          <span className="is-size-5" style={{marginBottom: '1rem'}}>Contact</span>
           <a className={style.link} href="tel:+6285366442933">+62 85366442933</a>
           <a className={style.link} href="mailto:roli5_socialist@yahoo.com">roli5_socialist@yahoo.com</a>
         </div>
