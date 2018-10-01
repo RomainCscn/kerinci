@@ -15,24 +15,19 @@ export default class LakeKacoPage extends React.Component {
   render() {
     let priceDetails = {
       oneDay: [
-        {name: 'Solo', price: '100'},
-        {name: 'Two persons', price: '200'},
-        {name: 'Three persons', price: '250'},
-        {name: 'Four persons', price: '300'}
+        {name: 'Solo', price: '900,000'},
+        {name: 'Two persons', price: '1,200,000'},
+        {name: 'Three persons', price: '1,300,000'},
+        {name: 'Four persons', price: '1,600,000'},
+        {name: 'Five persons', price: '1,800,000'}
       ],
       twoDays: [
-        {name: 'Solo', price: '200'},
-        {name: 'Two persons', price: '300'},
-        {name: 'Three persons', price: '350'},
-        {name: 'Four persons', price: '400'}
-      ],
-      threeDays: [
-        {name: 'Solo', price: '300'},
-        {name: 'Two persons', price: '350'},
-        {name: 'Three persons', price: '400'},
-        {name: 'Four persons', price: '450'},
-        {name: 'Five persons', price: '500'}
-      ],
+        {name: 'Solo', price: '1,500,000'},
+        {name: 'Two persons', price: '1,800,000'},
+        {name: 'Three persons', price: '2,100,000'},
+        {name: 'Four persons', price: '2,300,000'},
+        {name: 'Five persons', price: '2,500,000'}
+      ]
     }
 
     return (

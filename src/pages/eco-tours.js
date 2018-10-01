@@ -36,7 +36,7 @@ export default class EcoToursPage extends React.Component {
               <TourItem title="Mount Tujuh" image={this.props.data.mountTujuh.childImageSharp.fluid} path="/tours/mount-tujuh"/>
             </div>
             <div className="column is-one-third-widescreen is-half-tablet">
-              <TourItem title="Lake Kako"  image={this.props.data.lakeKaco.childImageSharp.fluid} path="/tours/lake-kaco"/>
+              <TourItem title="Lake Kaco"  image={this.props.data.lakeKaco.childImageSharp.fluid} path="/tours/lake-kaco"/>
             </div>
             <div className="column is-one-third-widescreen is-half-tablet">
               <TourItem title="Jungle treks" image={this.props.data.jungleTreks.childImageSharp.fluid} path="/tours/jungle-treks"/>

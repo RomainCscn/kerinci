@@ -5,16 +5,19 @@ export default class Gallery extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeLenghtTrek: 'oneDay',
+      activeLenghtTrek: "",
       peopleNumber: ""
     };
   }
 
   peopleNumber() {
     const { details } = this.props;
-    let options = details[this.state.activeLenghtTrek].map(element => {
-      return <option key={element.name} value={element.name}>{element.name}</option>
-    });
+    let options;
+    if (this.state.activeLenghtTrek) {
+      options = details[this.state.activeLenghtTrek].map(element => {
+        return <option key={element.name} value={element.name}>{element.name}</option>
+      });
+    }
     return <div style={{marginBottom: '1rem'}}>
     <label className="label">Number of people</label>
     <div className="select">
@@ -29,7 +32,7 @@ export default class Gallery extends React.Component {
   price() {
     const { details } = this.props;
     let price;
-    if (details[this.state.activeLenghtTrek].find(element => element.name === this.state.peopleNumber)) {
+    if (this.state.activeLenghtTrek && details[this.state.activeLenghtTrek].find(element => element.name === this.state.peopleNumber)) {
       price = details[this.state.activeLenghtTrek].find(element => element.name === this.state.peopleNumber).price;
     }
     return <div style={{marginBottom: '2rem'}}>

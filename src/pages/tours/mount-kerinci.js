@@ -14,24 +14,19 @@ import style from '../global.module.css'
 export default class MountKerinciPage extends React.Component {
   render() {
     let priceDetails = {
-      oneDay: [
-        {name: 'Solo', price: '100'},
-        {name: 'Two persons', price: '200'},
-        {name: 'Three persons', price: '250'},
-        {name: 'Four persons', price: '300'}
-      ],
       twoDays: [
-        {name: 'Solo', price: '200'},
-        {name: 'Two persons', price: '300'},
-        {name: 'Three persons', price: '350'},
-        {name: 'Four persons', price: '400'}
+        {name: 'Solo', price: '2,300,000'},
+        {name: 'Two persons', price: '3,100,000'},
+        {name: 'Three persons', price: '4,000,000'},
+        {name: 'Four persons', price: '5,200,000'},
+        {name: 'Five persons', price: '6,000,000'}
       ],
       threeDays: [
-        {name: 'Solo', price: '300'},
-        {name: 'Two persons', price: '350'},
-        {name: 'Three persons', price: '400'},
-        {name: 'Four persons', price: '450'},
-        {name: 'Five persons', price: '500'}
+        {name: 'Solo', price: '3,200,000'},
+        {name: 'Two persons', price: '4,000,000'},
+        {name: 'Three persons', price: '5,100,000'},
+        {name: 'Four persons', price: '6,200,000'},
+        {name: 'Five persons', price: '7,000,000'}
       ],
     }
 
@@ -45,18 +40,16 @@ export default class MountKerinciPage extends React.Component {
         </div>
         <div className="container content" style={{maxWidth: '800px'}}> 
           <h3 className="is-size-4">Day 1</h3>
-
-          <p>Five o’clock in the morning wake up. Grab your stuff and put it in the car. The drive to the village at the base of the trek will take one and a half hours. We’ll stop on the way at a traditional market for your choice of a delectable breakfast.</p>
         
           <p>We’ll enter the trek from a village in Kerinci and embark on our eight hour walk to the tree shelter. As we trek forward we mustn’t forget to stop and look back over the views of the rice fields, tea plantations, wetlands, and the distant view of Mount Tujuh .Over the course of this beautiful walk we will stop for coffee’s and lunch. On these breaks we’ll sit back and enjoy the surroundings andviews below us.</p>
         
-          <p>In the late afternoon we will set up camp at the tree shelter, eat a lovely warm dinner around the camp fire and then head to bed. This is the last point on the mountain with running water.</p>
+          <p>In the late afternoon we will set up camp at the three shelter, eat a lovely warm dinner around the camp fire and then head to bed. This is the last point on the mountain with running water.</p>
         
           <h3 className="is-size-4">Day 2</h3>
         
-          <p>We’ll begin the day with an early 4am start, drinking hot Kerinci coffee to wake up. We’ll feast upon a nasi goreng breakfast to fuel ourselves for the day ahead. Then we will commence the three hour walk to the summit.</p>
+          <p>We’ll begin the day with an early 3am start, drinking hot Kerinci coffee to wake up. We’ll feast upon a nasi goreng breakfast to fuel ourselves for the day ahead. Then we will commence the three hour walk to the summit.</p>
         
-          <p>The astonishing view from the summit of the volcano is impressively vast. The view covers the Indian Ocean, Padang and even Bukkingi city, a nine hour drive from Kerinci.  We’ll spend some time on the summit taking in the view and eating an early lunch. Then we’ll start the six hour walk back to the village and from there drive home.</p>
+          <p>The astonishing view from the summit of the volcano is impressively vast. We’ll spend some time on the summit taking in the view and eating an early lunch. Then we’ll start the eight hour walk back to the village and from there drive home.</p>
         </div>
       </section>
       <section style={{backgroundColor: '#F4F4F4'}}>

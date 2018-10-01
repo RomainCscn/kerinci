@@ -14,24 +14,19 @@ import style from '../global.module.css'
 export default class MountTujuhPage extends React.Component {
   render() {
     let priceDetails = {
-      oneDay: [
-        {name: 'Solo', price: '100'},
-        {name: 'Two persons', price: '200'},
-        {name: 'Three persons', price: '250'},
-        {name: 'Four persons', price: '300'}
-      ],
       twoDays: [
-        {name: 'Solo', price: '200'},
-        {name: 'Two persons', price: '300'},
-        {name: 'Three persons', price: '350'},
-        {name: 'Four persons', price: '400'}
+        {name: 'Solo', price: '2,300,000'},
+        {name: 'Two persons', price: '3,100,000'},
+        {name: 'Three persons', price: '4,000,000'},
+        {name: 'Four persons', price: '5,200,000'},
+        {name: 'Five persons', price: '6,000,000'}
       ],
       threeDays: [
-        {name: 'Solo', price: '300'},
-        {name: 'Two persons', price: '350'},
-        {name: 'Three persons', price: '400'},
-        {name: 'Four persons', price: '450'},
-        {name: 'Five persons', price: '500'}
+        {name: 'Solo', price: '3,200,000'},
+        {name: 'Two persons', price: '4,000,000'},
+        {name: 'Three persons', price: '5,100,000'},
+        {name: 'Four persons', price: '6,200,000'},
+        {name: 'Five persons', price: '7,000,000'}
       ],
     }
 
