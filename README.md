@@ -1,6 +1,6 @@
 # Kerinci Kultur website
 
-Website created for [Kerinci Kultur](www.kerincikulture.com), an indonesian organization located in Sumatra.
+Website created for [Kerinci Kultur](www.kerincikultur.com), an indonesian organization located in Sumatra.
 
 Created using [Gatsby](https://www.gatsbyjs.org/docs/), hosted on [Netlify](https://www.netlify.com).
 
