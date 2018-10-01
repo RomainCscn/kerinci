@@ -76,7 +76,7 @@ export default class LakeKacoPage extends React.Component {
           <p>Price includes:</p>
           <ul>
             <li>Transporation to the starting point</li>
-            <li>Full board meals: breakfast, lunch, coffee or tea and water.</li>
+            <li>Full board meals: breakfast, lunch, coffee or tea and water</li>
           </ul>
 
           <p><em>Note that we can help you find a private or shared car, both from Bukittinggi, Padang or Jambi to Kerinci.</em></p>

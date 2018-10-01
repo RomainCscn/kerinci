@@ -25,9 +25,14 @@ export default class ContactPage extends React.Component {
               <div>
                 <div className="message is-success">
                   <div className="message-body">
-                    <p>To contact us, use the following number for quicker response (<em>call and Whatsapp</em>) or the form below.</p>
-                    <div className="has-text-centered" style={{marginTop: '1rem'}}>
-                      <a href="tel:+6285366442933">+62 85366442933</a>
+                    <p>To contact us, use the following number for quicker response (<em>call and Whatsapp</em>), our email address or the form below.</p>
+                    <div className="columns has-text-centered is-centered" style={{marginTop: '1rem'}}>
+                      <div className="column is-narrow"> 
+                        <a href="tel:+6285366442933">+62 85366442933</a>
+                      </div>
+                      <div className="column is-narrow">
+                        <a href="mailto:kerincikultur@gmail.com">kerincikultur@gmail.com</a>
+                      </div>
                     </div>
                   </div>
                 </div>

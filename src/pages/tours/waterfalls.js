@@ -56,7 +56,7 @@ export default class JungleTreksPage extends React.Component {
             <h3 className="is-size-4">Arai Waterfall</h3>
             <ul>
               <li>Drive: 0.5 hrs</li>
-              <li>Trekking: 2.5 hrs</li>
+              <li>Trekking: 5 hrs</li>
               <li>Difficulty: Quite slippery, challenging climb</li>
             </ul>
           </div>
@@ -64,7 +64,7 @@ export default class JungleTreksPage extends React.Component {
             <h3 className="is-size-4">Pancuran Rayo Waterfall</h3>
             <ul>
               <li>Drive: 1.5 hrs</li>
-              <li>Trekking: 2 hrs</li>
+              <li>Trekking: 4 hrs</li>
               <li>Difficulty: Quite a steep, challenging walk</li>
             </ul>
           </div>
@@ -72,7 +72,7 @@ export default class JungleTreksPage extends React.Component {
             <h3 className="is-size-4">Talang Kemulun Waterfall</h3>
             <ul>
               <li>Drive: 1.5 hrs</li>
-              <li>Trekking: 1 hrs</li>
+              <li>Trekking: 4 hrs</li>
               <li>Difficulty: Quite comfortable steady incline walk</li>
             </ul>
           </div>
@@ -80,7 +80,7 @@ export default class JungleTreksPage extends React.Component {
             <h3 className="is-size-4">Batu Kura Waterfall</h3>
             <ul>
               <li>Drive: 0.5 hrs</li>
-              <li>Trekking: 1 hr</li>
+              <li>Trekking: 2 hrs</li>
               <li>Difficulty: Easy</li>
             </ul>
           </div>
@@ -88,8 +88,8 @@ export default class JungleTreksPage extends React.Component {
             <h3 className="is-size-4">Tricontra Waterfall</h3>
             <ul>
               <li>Drive: 1.5 hrs</li>
-              <li>Trekking: 3 hrs</li>
-              <li>Difficulty: Next to no incline, a portion contains a challenging climbing</li>
+              <li>Trekking: 4 hrs</li>
+              <li>Difficulty: Quite a steep, challenging walk</li>
             </ul>
           </div>
         </div>

@@ -82,11 +82,11 @@ export default class MountKerinciPage extends React.Component {
         
           <p>Price includes:</p>
           <ul>
-            <li>Two nights in our homestay for the night before the trek and after the trek</li>
+            <li>Two nights in our homestay for the night before and after the trek</li>
             <li>National Park permits</li>
             <li>All camping equipment: camping tent, mattress and sleeping bags</li>
-            <li>1 or 2 porters (it depends on the size of group) who will carry with the camping equipment and food.</li>
-            <li>Full board meals while you are on the trek: breakfast, lunch, dinner, coffe or tea and water.</li>
+            <li>1 or 2 porters (it depends on the size of group) who will carry with the camping equipment and food</li>
+            <li>Full board meals while you are on the trek: breakfast, lunch, dinner, coffe or tea and water</li>
           </ul>
 
           <p><em>Note that we can help you find a private or shared car, both from Bukittinggi, Padang or Jambi to Kerinci.</em></p>
