@@ -41,15 +41,15 @@ export default class MountKerinciPage extends React.Component {
         <div className="container content" style={{maxWidth: '800px'}}> 
           <h3 className="is-size-4">Day 1</h3>
         
-          <p>We’ll enter the trek from a village in Kerinci and embark on our eight hour walk to the tree shelter. As we trek forward we mustn’t forget to stop and look back over the views of the rice fields, tea plantations, wetlands, and the distant view of Mount Tujuh .Over the course of this beautiful walk we will stop for coffee’s and lunch. On these breaks we’ll sit back and enjoy the surroundings andviews below us.</p>
+          <p>We’ll enter the trek from a village in Kerinci and embark on our eight hour walk to the three shelter. As we trek forward we mustn’t forget to stop and look back over the views of the rice fields, tea plantations, wetlands, and the distant view of Mount Tujuh. Over the course of this beautiful walk we will stop for coffee’s and lunch. On these breaks we’ll sit back and enjoy the surroundings andviews below us.</p>
         
-          <p>In the late afternoon we will set up camp at the three shelter, eat a lovely warm dinner around the camp fire and then head to bed. This is the last point on the mountain with running water.</p>
+          <p>In the late afternoon we will set up camp at the three shelter, eat a lovely warm dinner around the camp and then head to bed. This is the last point on the mountain with running water.</p>
         
           <h3 className="is-size-4">Day 2</h3>
         
-          <p>We’ll begin the day with an early 3am start, drinking hot Kerinci coffee to wake up. We’ll feast upon a nasi goreng breakfast to fuel ourselves for the day ahead. Then we will commence the three hour walk to the summit.</p>
+          <p>We’ll begin the day with an early 3am start, drinking hot Kerinci coffee to wake up. Then we will commence the three hour walk to the summit.</p>
         
-          <p>The astonishing view from the summit of the volcano is impressively vast. We’ll spend some time on the summit taking in the view and eating an early lunch. Then we’ll start the eight hour walk back to the village and from there drive home.</p>
+          <p>The astonishing view from the summit of the volcano is impressively vast. We’ll spend some time on the summit taking in the view. Then we’ll start the eight hour walk back to the village and from there drive home.</p>
         </div>
       </section>
       <section style={{backgroundColor: '#F4F4F4'}}>

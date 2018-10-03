@@ -44,10 +44,10 @@ export default class MountTujuhPage extends React.Component {
           <p>We’ll start the day bright and early, getting our bags and hopping in the car for a two hour drive to a village in Kerinci. On the way we’ll stop at a traditional market for breakfast, where there’ll be an appetizing range of different meals to choose from.
           From the village we’ll enter the jungle and begin the three hour trek to the lake. The jungles beauty will close in around us as we stride forward.The duration of the walk will vary depending on the groups desire to stop and take in the surroundings and also their fitness level.</p>
         
-          <p>We’ll arrive at Lake Gunung Tuguh for lunch, sitting back and enjoying the beautiful surroundings.The lake is a caldera, created by an ancient volcano eruption. It’s the highest caldera in South East Asia.</p>
+          <p>We’ll arrive at Lake Gunung Tujuh for lunch, sitting back and enjoying the beautiful surroundings.The lake is a caldera, created by an ancient volcano eruption. It’s the highest caldera in South East Asia.</p>
         
-          <p>After you feel that your lunch has settled you can set up camp. The afternoon will be yours to do what you want. There is plenty to do, you can go swimming, hunt some crabs for dinner, explore the areaor just kick back in one of the hammocks, whatever you fancy.
-          As the evening commences you can enjoy a barbeque dinner around the camp fire. If we are lucky and successful hunting crabs, we’ll be able to enjoy barbequed crab for dinner. After dinner is a prime time to search for nocturnal animals, if you feel like doing so. If you are visiting the lake on a full moon the area will be lit up by the bright moonlight. It’s really the best time to visit the lake.</p>
+          <p>After you feel that your lunch has settled you can set up camp. The afternoon will be yours to do what you want. There is plenty to do, you can go swimming, hunt some crabs for dinner, explore the area or just kick back in one of the hammocks, whatever you fancy.
+          As the evening commences you can enjoy dinner around the camp fire. If we are lucky and successful hunting crabs, we’ll be able to enjoy barbecued crab for dinner. After dinner is a prime time to search for nocturnal animals, if you feel like doing so. If you are visiting the lake on a full moon the area will be lit up by the bright moonlight. It’s really the best time to visit the lake.</p>
         
           <h3 className="is-size-4">Day 2</h3>
           
